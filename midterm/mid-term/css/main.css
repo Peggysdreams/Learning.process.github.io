@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.area{
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.area .content{
+  position: absolute;
+  width: 1280px;
+  max-width: 1000px;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.area1{
+/*   background-image: url(https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+ background-image: url(../images/2.jpeg);
+  /*   opacity:0.75 ; */
+  background-position: center center;
+}
+.text1{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 220px;
+  font-size: 160px;
+  font-weight: 800;
+}
+.text2{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 460px;
+  font-size: 60px;
+  font-weight: 700;
+}
+.img100{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: center;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 60px;
+  padding: 5px;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 50%;
+  text-align: center;
+  opacity: 1;
+  background-color: rgba(255,255,255,0.5);
+}
+.area2{
+/*   background-image: url(https://images.pexels.com/photos/458881/pexels-photo-458881.jpeg); */
+  background-position: left top;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity:1 ;
+}
+.row{
+  clear: both;
+  margin-bottom: 20px;
+}
+.img1{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+}
+.img2{
+  float: right;
+}
+.img20{
+  float: left;
+}
+.img21{
+  float: right;
+}
+.area8{
+/*   background-image: url(https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity:1 ;
+  text-align: center;
+}
+.row800{
+  clear: both;
+  display: inline-block;
+}
+.text800{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #fff;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  margin-top: -120px;
+  font-size: 70px;
+  font-weight: 800;
+  z-index: 999;
+}
+.text801{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #000;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  margin-top: -120px;
+  font-size: 70px;
+  font-weight: 800;
+  z-index: 999;
+}
+.text800:hover{
+  font-size: 80px;
+  display: block;
+  transition: 0.3s;
+}
+.text801:hover{
+  font-size: 80px;
+  display: block;
+  transition: 0.3s;
+}
+.img800{
+  position: relative;
+  display: block;
+  width: 1000px;
+  height: 150px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0px;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 55px 55px 55px 55px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+}
+.area3{
+/* background-image: url(https://images.pexels.com/photos/6621435/pexels-photo-6621435.jpeg); */
+  background-image: url(../images/3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity:1 ;
+  text-align: center;
+}
+.text5{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text6{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #614111;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text7{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #86cf00;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text8{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #ffa3f6;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -28px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text9{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #40ffa3;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text331{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #ffbb00;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text332{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #ff1499;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -35px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text441{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #ffff3d;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text442{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #dd00ff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -30px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.text443{
+  font-family: 'Passions Conflict', cursive ,serif;
+  color: #ff3d3d;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -27px;
+  font-size: 67px;
+  font-weight: 700;
+}
+.area4{
+/*   background-image: url(https://images.pexels.com/photos/1070880/pexels-photo-1070880.jpeg); */
+  background-image: url(../images/3.jpg);
+  background-position: center center;
+  opacity:1 ;
+}
+.row7{
+  clear: both;
+  margin-bottom: 20px;
+}
+.img40{
+  position: relative;
+  display: block;
+  top: -30px;
+  width: 160px;
+  height: 107px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 3px;
+  padding: 5px;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+}
+.rect{
+  position: relative;
+  float: center;
+  display: inline-block;
+  vertical-align: left;
+  text-align: center;
+  top: -600px;
+  left: 300px;
+  margin-top: 3.5px;
+  width: 800px;
+  height: 107px;
+  line-height: 1;
+  border-radius: 30px;
+  background-color: rgba(230,270,0,0.3);
+}
+.rect:hover{
+  display: inline-block;
+  margin-left: 10px;
+  width: 200px;
+  width: 850px;
+  height: 107px;
+  transition: 0.3s;
+}
+.TitleP{
+ font-family: 'Passions Conflict', cursive ,serif;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-left: -540px;
+  margin-right: -10px;
+  font-size: 100px;
+  font-weight: 700;
+}
+.area5{
+/*  background-image: url(https://images.pexels.com/photos/11574237/pexels-photo-11574237.jpeg?cs=srgb&dl=pexels-m%C4%83lina-s%C3%AErbu-11574237.jpg&fm=jpg); */
+  background-image: url(../images/3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+/*   opacity:1 ; */
+  text-align: center;
+}
+.Title{
+  font-size: 80px;
+  font-weight: bold;
+  color:#fff;
+}
+.row{
+  margin: auto;
+  white-space: nowrap;
+}
+.row2{
+  margin: auto;
+}
+.row3{
+  margin: auto;
+  text-align: center;
+  vertical-align:middle;
+  display:inline-block;
+}
+.img3{
+  position: relative;
+  float: center;
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+}
+.ccle{
+  margin: 0px auto;
+  text-align: center;
+}
+.square{
+  position: relative;
+  float: center;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 180px;
+  height: 350px;
+  line-height: 1;
+  border-radius: 30px;
+  background-color: rgba(188,143,143,0.5);
+}
+.square:hover{
+  position: relative;
+  float: center;
+  vertical-align: top;
+  text-align: center;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 1s;
+}
+.area6{
+/*   background-image: url(https://images.pexels.com/photos/4191621/pexels-photo-4191621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity:1 ;
+}
+.card{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1000px;
+  height: 590px;
+  border-radius: 30px;
+  background-color: rgba(255,255,255,0.5);
+}
+h{
+  color: #fff;
+  font-family: Montserrat ,'Passions Conflict', cursive ,serif;
+  font-size: 50px;
+}
+p{
+  font-family: Montserrat ,'Passions Conflict', cursive ,serif;
+  color: #fff;
+  font-size: 30px;
+}
+article{
+  font-family: Montserrat ,'Passions Conflict', cursive ,serif;
+  color: #5e4922;
+  font-weight: bold;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-size: 45px;
+}
+.BlueTitle{
+  font-size: 70px;
+  font-weight: bold;
+  color:#142761;
+}
+.area7{
+/*   background-image: url(https://images.pexels.com/photos/1070880/pexels-photo-1070880.jpeg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity:1 ;
+}
+.btns{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  margin-top: 500px;
+  margin-left: 0px;
+  text-align: center;
+}
+.btn{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-top: 480px;
+  text-decoration: none;
+  background-color: #918051;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  white-space: nowrap;
+}
+.btn:hover{
+  background-color: #a89b77;
+  color: #d9d9d9;
+}
+.btn2{
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  border-radius: 20px 0 0 20px;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  margin-left: 250px;
+  margin-top: 60px;
+/*   position: absolute;
+  width: 100%;
+  bottom: 0; */
+  z-index: 1000;
+}
+.nav ul{
+/*   outline: 1px solid red; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  z-index: 1000;
+}
+.nav ul li{
+/*   outline: 1px solid blue; */
+/*   margin-bottom: 3px; */
+  width: 100px;
+  display: inline-block;
+  z-index: 1000;
+}
+.nav ul li a{
+  color: #fff;
+  background-color: #918051;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-bottom: 3px;
+  z-index: 1000;
+}
+.nav ul li a:hover{
+  background-color: #a89b77;
+  color: #d9d9d9;
+  z-index: 1000;
+}
+input[type=text0]{
+    position: absolute;
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:15px;
+    margin:5px 0;
+    outline:none;
+    opacity: 1;
+    padding:10px;
+    box-sizing:border-box;
+    transition:.3s;
+    z-index: 1000;
+  }
+  input[type=text0]:focus{
+    border-color:#a4d600;
+    opacity: 0.5;
+    box-shadow:0 0 10px 0 #739600;
+  }
+
+
+
+
+
+
+
+.home{
+  position: absolute;
+  top: 50px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa{
+  margin-left: auto;
+}
+.fa-home{
+  color: #917959;
+  margin-left: auto;
+  margin-right: 0px;
+  z-index: 100;
+}
