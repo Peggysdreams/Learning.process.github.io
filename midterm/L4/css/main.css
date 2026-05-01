@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  height: 100vh;
+  font-size: 0;
+}
+.col{
+  font-family: 'Neucha', cursive;
+  height: 100%;
+  display: inline-block;
+  width: calc(100% /10);
+  vertical-align: top;
+  /*font-size: initial;*/
+  /*padding: 10px;*/
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 100vh;
+}
+.col1{
+  background-color: #ff5959;
+}
+.col2{
+  background-color: #ffd257;
+}
+.col3{
+  background-color: #fcff54;
+}
+.col4{
+  background-color: #9aff96;
+}
+.col5{
+  background-color: #70dbff;
+}
+.col6{
+  background-color: #7088ff;
+}
+.col7{
+  background-color: #d896ff;
+}
+.big{
+  font-size: 48px;
+}
+.col:hover .big{
+  color: #fff;
+}
+
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+  left: 1190px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa-home{
+  color: #917959;
+  z-index: 100;
+}
