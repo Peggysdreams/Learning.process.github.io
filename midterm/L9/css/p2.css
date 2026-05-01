@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: #fff;
+}
+.box{
+	width: 550px;
+	height: 500px;
+	background-color: #000;
+	position: relative;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	transform: translate3d(-150px, 0px, 0px);
+	opacity: 0.5;
+	transition: all 0.35s;
+	transition-delay: 1s;
+}
+.box .title{
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	transition: all 0.35s;
+	transition-delay: 0.5s;
+}
+.box .price{
+	font-size: 50px;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	bottom: -100px;
+	right: 30px;
+	transition: all 0.35s;
+}
+.box:hover img{
+	transform: translate3d(-10px, 0px, 0px);
+	opacity: 1;
+	transition-delay: 0s;
+}
+.box:hover .title{
+    bottom: 100px;
+    transition-delay: 0.5s;
+}
+.box:hover .price{
+    bottom: 30px;
+    transition-delay: 1s;
+}
+.button2{
+	position: absolute;
+	left: 40px;
+	top: 30px;
+}
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+  left: 1190px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa-home{
+  color: #917959;
+  z-index: 100;
+}
